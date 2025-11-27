@@ -22,4 +22,5 @@ public class Scenario {
             effet.jouer();
         }
     }
+
 }

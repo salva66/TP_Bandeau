@@ -14,6 +14,7 @@ public class Main {
         scenario.ajouterEffet(new Teletype(monBandeau, "On se prépare !", 200));
         scenario.ajouterEffet(new Rotation(monBandeau, 2, 100));
         scenario.ajouterEffet(new Teletype(monBandeau, "Voilà ! C'est terminé !", 200));
+        scenario.ajouterEffet(new Pendu(monBandeau, "Mystere", 100));
         monBandeau.sleep(500);
 
         scenario.jouer();
